@@ -20,7 +20,7 @@ import numpy as np
 
 
 def max_index(X):
-    """Return the index of the maximum in a numpy array.
+    """Return the index of the maximum in a numpy array. UP my solution.
 
     Parameters
     ----------
