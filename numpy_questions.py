@@ -11,6 +11,7 @@ the repo. It should say that 2 tests ran with success.
 We also ask to respect the pep8 convention: https://pep8.org.
 This will be enforced with `ruff`. You can check that there are no errors
 by calling `ruff check` at the root of the repo.
+
 """
 
 import numpy as np
