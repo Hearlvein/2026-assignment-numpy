@@ -1,0 +1,21 @@
+[project]
+name = "2026-assignment-numpy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hearlvein", email = "james.chaintron@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "pytest>=9.2.0",
+]
+
+[project.scripts]
+2026-assignment-numpy = "2026_assignment_numpy:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
